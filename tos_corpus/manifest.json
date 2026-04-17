@@ -1,0 +1,202 @@
+[
+  {
+    "company": "spotify",
+    "doc_type": "tos",
+    "url": "https://www.spotify.com/us/legal/end-user-agreement/",
+    "filepath": "tos_corpus/spotify_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 54254
+  },
+  {
+    "company": "spotify",
+    "doc_type": "privacy",
+    "url": "https://www.spotify.com/us/legal/privacy-policy/",
+    "filepath": "tos_corpus/spotify_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 39102
+  },
+  {
+    "company": "tiktok",
+    "doc_type": "tos",
+    "url": "https://www.tiktok.com/legal/page/us/terms-of-service/en",
+    "filepath": "tos_corpus/tiktok_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 41558
+  },
+  {
+    "company": "tiktok",
+    "doc_type": "privacy",
+    "url": "https://www.tiktok.com/legal/page/us/privacy-policy/en",
+    "filepath": "tos_corpus/tiktok_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 27650
+  },
+  {
+    "company": "airbnb",
+    "doc_type": "tos",
+    "url": "https://www.airbnb.com/help/article/2908",
+    "filepath": "tos_corpus/airbnb_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 255682
+  },
+  {
+    "company": "airbnb",
+    "doc_type": "privacy",
+    "url": "https://www.airbnb.com/help/article/2855",
+    "filepath": "tos_corpus/airbnb_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 1632
+  },
+  {
+    "company": "netflix",
+    "doc_type": "tos",
+    "url": "https://help.netflix.com/legal/termsofuse",
+    "filepath": "tos_corpus/netflix_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 56237
+  },
+  {
+    "company": "netflix",
+    "doc_type": "privacy",
+    "url": "https://help.netflix.com/legal/privacy",
+    "filepath": "tos_corpus/netflix_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 69870
+  },
+  {
+    "company": "twitter_x",
+    "doc_type": "tos",
+    "url": "https://twitter.com/en/tos",
+    "filepath": "tos_corpus/twitter_x_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 58844
+  },
+  {
+    "company": "twitter_x",
+    "doc_type": "privacy",
+    "url": "https://twitter.com/en/privacy",
+    "filepath": "tos_corpus/twitter_x_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 33347
+  },
+  {
+    "company": "google",
+    "doc_type": "tos",
+    "url": "https://policies.google.com/terms",
+    "filepath": "tos_corpus/google_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 28244
+  },
+  {
+    "company": "google",
+    "doc_type": "privacy",
+    "url": "https://policies.google.com/privacy",
+    "filepath": "tos_corpus/google_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 64193
+  },
+  {
+    "company": "paypal",
+    "doc_type": "tos",
+    "url": "https://www.paypal.com/us/legalhub/useragreement-full",
+    "filepath": "tos_corpus/paypal_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 158439
+  },
+  {
+    "company": "paypal",
+    "doc_type": "privacy",
+    "url": "https://www.paypal.com/us/legalhub/privacy-full",
+    "filepath": "tos_corpus/paypal_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 117212
+  },
+  {
+    "company": "discord",
+    "doc_type": "tos",
+    "url": "https://discord.com/terms",
+    "filepath": "tos_corpus/discord_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 59562
+  },
+  {
+    "company": "discord",
+    "doc_type": "privacy",
+    "url": "https://discord.com/privacy",
+    "filepath": "tos_corpus/discord_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 35521
+  },
+  {
+    "company": "snapchat",
+    "doc_type": "tos",
+    "url": "https://snap.com/en-US/terms",
+    "filepath": "tos_corpus/snapchat_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 98842
+  },
+  {
+    "company": "snapchat",
+    "doc_type": "privacy",
+    "url": "https://snap.com/en-US/privacy/privacy-policy",
+    "filepath": "tos_corpus/snapchat_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 32875
+  },
+  {
+    "company": "youtube",
+    "doc_type": "tos",
+    "url": "https://www.youtube.com/t/terms",
+    "filepath": "tos_corpus/youtube_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 23990
+  },
+  {
+    "company": "youtube",
+    "doc_type": "privacy",
+    "url": "https://policies.google.com/privacy",
+    "filepath": "tos_corpus/youtube_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 64193
+  },
+  {
+    "company": "robinhood",
+    "doc_type": "tos",
+    "url": "https://robinhood.com/us/en/about/legal/",
+    "filepath": "tos_corpus/robinhood_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 3405
+  },
+  {
+    "company": "tinder",
+    "doc_type": "tos",
+    "url": "https://policies.tinder.com/terms/intl/en",
+    "filepath": "tos_corpus/tinder_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 100317
+  },
+  {
+    "company": "tinder",
+    "doc_type": "privacy",
+    "url": "https://policies.tinder.com/privacy/intl/en",
+    "filepath": "tos_corpus/tinder_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 34751
+  },
+  {
+    "company": "linkedin",
+    "doc_type": "tos",
+    "url": "https://www.linkedin.com/legal/user-agreement",
+    "filepath": "tos_corpus/linkedin_tos_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 32826
+  },
+  {
+    "company": "linkedin",
+    "doc_type": "privacy",
+    "url": "https://www.linkedin.com/legal/privacy-policy",
+    "filepath": "tos_corpus/linkedin_privacy_2026-04-17.txt",
+    "scrape_date": "2026-04-17",
+    "char_count": 41999
+  }
+]
