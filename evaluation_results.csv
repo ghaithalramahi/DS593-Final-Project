@@ -1,0 +1,306 @@
+company,question,tosdr_title,tosdr_status,ground_truth_verdict,ground_truth_risk,tosdr_point_id,rag_verdict,rag_risk,base_verdict,base_risk,rag_answer,base_answer,rag_similarity,base_similarity,rag_wins
+airbnb,Is it true that you are entitled to a refund if certain thresholds or standards are not met by the service?,You are entitled to a refund if certain thresholds or standards are not met by the service,good,Yes,GREEN,26875,No,YELLOW,Unclear,YELLOW,"The excerpts indicate that if you are a Guest and you terminate your account, any confirmed bookings will be automatically cancelled, and refunds will depend on the terms of the Listing’s cancellation policy. However, there is no explicit mention of entitlement to a refund if certain thresholds or standards are not met by the service itself. Therefore, it is unclear whether you are entitled to a refund under those circumstances.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Airbnb's Terms of Service typically outline the conditions under which a guest may be entitled to a refund. This often includes scenarios where the accommodation does not meet certain standards or if there are significant issues with the booking. However, the specifics can vary based on the situation, the host's cancellation policy, and the nature of the complaint. Therefore, while there are circumstances under which a refund may be granted, it is not an absolute entitlement and depends on the details of each case.
+
+- VERDICT: Unclear
+- RISK: YELLOW",0.6130856275558472,0.4823824167251587,True
+airbnb,Is it true that this service uses third-party cookies for statistics?,This service uses third-party cookies for statistics,bad,Yes,RED,6407,Unclear,YELLOW,Yes,GREEN,"The provided excerpts do not explicitly mention the use of third-party cookies for statistics. They reference a Cookie Policy, but do not provide details about its contents or the use of cookies for statistics. Therefore, it is unclear whether third-party cookies are used for this purpose.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, Airbnb's Terms of Service and Privacy Policy indicate that they use third-party cookies for various purposes, including statistics and analytics. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.7814501523971558,0.6283836364746094,True
+airbnb,Is it true that this service gives your personal data to third parties involved in its operation?,This service gives your personal data to third parties involved in its operation,bad,Yes,RED,117750,Unclear,YELLOW,Yes,YELLOW,"The excerpts indicate that Airbnb operates an affiliate program where listings may be featured on third-party websites, which implies that some data may be shared with these third parties. However, the specifics of what personal data is shared and under what circumstances are not detailed in the provided excerpts. Therefore, it is unclear if personal data is explicitly given to third parties involved in the operation of the service.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, Airbnb's Terms of Service and Privacy Policy indicate that they may share personal data with third parties involved in the operation of their services, such as payment processors, service providers, and other partners necessary for the functioning of the platform.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.5747576951980591,0.5341745615005493,True
+airbnb,Is it true that your personal data may be disclosed to comply with government requests without notice to you?,Your personal data may be disclosed to comply with government requests without notice to you,bad,Yes,RED,99682,Unclear,YELLOW,Yes,YELLOW,"The provided excerpts do not explicitly mention the disclosure of personal data to comply with government requests without notice. Therefore, it is unclear whether such a practice is stated in the documents.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, Airbnb's Terms of Service and Privacy Policy indicate that personal data may be disclosed to comply with legal obligations, including government requests, which may occur without prior notice to the user.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.8397670984268188,0.637300431728363,True
+airbnb,Is it true that the service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction?,The service can sell or otherwise transfer your personal data as part of a bankruptcy proceeding or other type of financial transaction.,bad,Yes,RED,6408,Unclear,YELLOW,Yes,YELLOW,"The provided excerpts do not mention anything about the service selling or transferring personal data as part of a bankruptcy proceeding or other financial transaction. Therefore, it is unclear whether such actions are permitted under the Terms of Service or Privacy Policy.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, Airbnb's Terms of Service and Privacy Policy typically include provisions that allow the company to sell or transfer personal data in the event of a bankruptcy proceeding or other financial transactions. This is a common practice among companies to ensure that assets, including user data, can be transferred as part of business operations.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.8573672771453857,0.571429431438446,True
+discord,Is it true that two factor authentication is provided for your account?,Two factor authentication is provided for your account,good,Yes,GREEN,130067,Yes,GREEN,Yes,GREEN,"Yes, two-factor authentication is strongly recommended for securing your Discord account. 
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Discord provides two-factor authentication (2FA) for user accounts as a security measure to enhance account protection. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.600746750831604,0.5956685543060303,True
+discord,Is it true that you can delete your content from this service?,You can delete your content from this service,good,Yes,GREEN,35058,Yes,GREEN,Yes,GREEN,"Yes, you can delete specific pieces of information, including messages you have sent or content you have posted, as long as you still have access to the space where you posted it. Additionally, you can edit or delete a Discord server if you have the necessary permissions.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, according to Discord's Terms of Service and Privacy Policy, users have the ability to delete their content. This includes messages and other user-generated content. However, it's important to note that while users can delete their content, there may be instances where copies of that content remain in Discord's backups or logs for a certain period.
+
+- VERDICT: Yes
+- RISK: GREEN",0.5510863661766052,0.5404960513114929,True
+discord,Is it true that some personal data may be kept for business interests or legal obligations?,Some personal data may be kept for business interests or legal obligations,bad,Yes,RED,130065,Yes,GREEN,Yes,YELLOW,"Yes, the document excerpts indicate that personal data may be retained for business interests, such as advertising and improving services, as well as for legal obligations, including compliance with laws and potential legal claims.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Discord's Terms of Service and Privacy Policy indicate that personal data may be retained for business interests, such as improving services, and to comply with legal obligations. 
+
+- VERDICT: Yes
+- RISK: YELLOW",0.7996004819869995,0.6771464347839355,True
+discord,"Is it true that instead of asking directly, this service will assume your consent merely from your usage?","Instead of asking directly, this Service will assume your consent merely from your usage.",bad,Yes,RED,34114,Unclear,YELLOW,Yes,YELLOW,"Based on the provided excerpts, it is stated that Discord may rely on consent (implied or express) to collect, use, and disclose personal information, subject to limited exceptions. This suggests that there may be situations where consent is assumed based on user interactions with the service. However, it also mentions that users can revoke their consent at any time, indicating that explicit consent is not always required for all actions.
+
+Therefore, while there is an implication of assumed consent through usage, it is not definitively stated that this is the only method of obtaining consent.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Discord's Terms of Service and Privacy Policy indicate that by using the service, users are providing implicit consent to the collection and use of their data as outlined in the policies. This means that continued use of the platform can be interpreted as acceptance of the terms without explicit consent being required for every action.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.5808068513870239,0.5320395231246948,True
+discord,Is it true that your provided identifiable information is actively checked by the service?,Your provided identifiable information is actively checked by the service,bad,Yes,RED,319103,Yes,YELLOW,Unclear,YELLOW,"Yes, the service actively checks your provided identifiable information to monitor for and take action against users and content that violate their Terms of Service and Community Guidelines. This includes responding to user reports and detecting fraud and malware.
+
+- VERDICT: Yes
+- RISK: YELLOW","Discord's Terms of Service and Privacy Policy do not explicitly state that identifiable information provided by users is actively checked or verified by the service. While Discord may collect and process user data for various purposes, including moderation and compliance with legal obligations, there is no clear indication that they actively verify the accuracy of the identifiable information provided by users.
+
+- VERDICT: Unclear
+- RISK: YELLOW",0.6603084206581116,0.5964115262031555,True
+google,Is it true that the service has non-exclusive use of your content?,The service has non-exclusive use of your content,good,Yes,GREEN,318345,Yes,GREEN,Yes,GREEN,"Yes, the service has non-exclusive use of your content, meaning you can also license your content to others while retaining your rights.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Google's Terms of Service state that by using their services, you grant them a non-exclusive, worldwide, royalty-free license to use, host, store, reproduce, modify, create derivative works, communicate, publish, publicly perform, publicly display, and distribute your content. This means they can use your content without exclusivity.
+
+- VERDICT: Yes
+- RISK: GREEN",0.7733853459358215,0.6269320845603943,True
+google,Is it true that you can opt out of targeted advertising?,You can opt out of targeted advertising,good,Yes,GREEN,318288,Yes,GREEN,Yes,GREEN,"Yes, the document states that U.S. state privacy laws provide the right to opt out of certain forms of profiling and targeted advertising. Additionally, users can control what information is used to show them ads and can turn off personalized ads through My Ad Center.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Google provides users with the option to opt out of targeted advertising through their account settings and various privacy tools. Users can manage their ad preferences and choose not to receive personalized ads based on their activity.
+
+- VERDICT: Yes
+- RISK: GREEN",0.6424702405929565,0.7292386889457703,False
+google,Is it true that your biometric data is collected?,Your biometric data is collected,bad,Yes,RED,318336,Yes,GREEN,Unclear,YELLOW,"Yes, the document states that biometric information may be collected if you choose to provide it, such as fingerprints in Google’s product development studies.
+
+- VERDICT: Yes
+- RISK: GREEN","Google's Terms of Service and Privacy Policy indicate that they may collect biometric data in certain contexts, particularly through services that involve image recognition or voice recognition. However, the extent of this collection and how it is used can vary based on user settings and consent.
+
+- VERDICT: Unclear
+- RISK: YELLOW",0.5527852177619934,0.621089518070221,False
+google,Is it true that this service tracks which web page referred you to it?,This service tracks which web page referred you to it,bad,Yes,RED,318332,Yes,GREEN,Yes,GREEN,"Yes, the service tracks information such as the web request, Internet Protocol address, and the page requests made when you visit its sites, which implies that it can determine which web page referred you to it.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Google's services typically track referral information, including which web page referred a user to their service. This is common practice for analytics and advertising purposes.
+
+- VERDICT: Yes
+- RISK: GREEN",0.7721847891807556,0.5802207589149475,True
+google,Is it true that voice data is collected and shared with third-parties?,Voice data is collected and shared with third-parties,bad,Yes,RED,318304,Yes,YELLOW,Yes,YELLOW,"Yes, the document excerpts indicate that voice and audio information may be collected and shared with service providers for various purposes, including improving services and technologies. 
+
+- VERDICT: Yes
+- RISK: YELLOW","Google's Terms of Service and Privacy Policy indicate that voice data may be collected when users interact with voice-activated services, such as Google Assistant. This data can be used to improve services and may be shared with third parties under certain circumstances, such as for advertising or analytics purposes. However, Google typically anonymizes this data and provides users with options to manage their privacy settings.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.6758930683135986,0.640570878982544,True
+linkedin,Is it true that tracking pixels are used in service-to-user communication?,Tracking pixels are used in service-to-user communication,bad,Yes,RED,20655,No,GREEN,Yes,YELLOW,"The provided excerpts do not explicitly mention the use of tracking pixels in service-to-user communication. They discuss the use of cookies and similar technologies for data collection and advertising purposes, but there is no direct reference to tracking pixels being used specifically in communications between the service and users.
+
+- VERDICT: No
+- RISK: GREEN","Yes, LinkedIn's Terms of Service and Privacy Policy indicate that tracking pixels may be used in service-to-user communication to gather data on user interactions and improve services. 
+
+- VERDICT: Yes
+- RISK: YELLOW",0.8492827415466309,0.6462459564208984,True
+linkedin,Is it true that this service receives your precise location through gps coordinates?,This service receives your precise location through GPS coordinates,bad,Yes,RED,35874,No,GREEN,Yes,YELLOW,"The document states that the service will ask for your opt-in before using GPS or other tools to identify your precise location. This implies that the service does not automatically receive your precise location without your consent.
+
+- VERDICT: No
+- RISK: GREEN","Yes, LinkedIn's Terms of Service and Privacy Policy indicate that the platform can collect precise location information through GPS coordinates if users enable location services on their devices. This data may be used to enhance user experience and provide location-based features.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.778691291809082,0.5983902215957642,True
+linkedin,"Is it true that you must provide your legal name, pseudonyms are not allowed?","You must provide your legal name, pseudonyms are not allowed",bad,Yes,RED,35875,Yes,GREEN,Yes,YELLOW,"Yes, the document states that you must use your real name on your profile and creating a false identity is prohibited. 
+
+- VERDICT: Yes
+- RISK: GREEN","LinkedIn's Terms of Service generally require users to provide accurate information, including their legal name, when creating an account. Pseudonyms are typically not permitted as they can violate the platform's policies regarding authenticity and transparency.
+
+- VERDICT: Yes
+- RISK: GREEN",0.5702840089797974,0.6387940049171448,False
+netflix,Is it true that this service uses third-party cookies for statistics?,This service uses third-party cookies for statistics,bad,Yes,RED,13633,Yes,GREEN,Yes,YELLOW,"Yes, the document mentions the use of pixel tags and cookies to understand user interactions and support advertising, which implies the use of third-party cookies for statistics.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Netflix's Terms of Service and Privacy Policy indicate that they may use third-party cookies for various purposes, including statistics and analytics. 
+
+- VERDICT: Yes
+- RISK: YELLOW",0.6440816521644592,0.6721457242965698,False
+netflix,Is it true that this service can share your personal information to third parties?,This service can share your personal information to third parties,bad,Yes,RED,13006,Yes,YELLOW,Yes,YELLOW,"Yes, the document excerpts indicate that the service can share personal information with Service Providers, Partners, and in certain circumstances such as corporate transactions, safety and security, and compliance with laws. 
+
+- VERDICT: Yes
+- RISK: YELLOW","Yes, Netflix's Terms of Service and Privacy Policy indicate that they may share personal information with third parties under certain circumstances, such as for service providers, legal compliance, or business transfers.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.6796977519989014,0.5923454761505127,True
+netflix,Is it true that this service allows you to retrieve an archive of your data?,This service allows you to retrieve an archive of your data,good,Yes,GREEN,13641,Yes,GREEN,Yes,GREEN,"Yes, the document states that you have the right to confirm whether Netflix processes your personal information and to access and receive a copy of the personal information they process about you. This implies that you can retrieve an archive of your data.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Netflix's Privacy Policy states that users can request access to their personal data, which may include an archive of their data. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.5420742034912109,0.5383864045143127,True
+netflix,Is it true that the service informs users about the risk of publishing personal info online?,The service informs users about the risk of publishing personal info online,good,Yes,GREEN,13648,No,YELLOW,Unclear,YELLOW,"The provided excerpts do mention that users should use good judgment when using text or voice chat and user-generated content functions, and it notes that even if users remove content, others may have saved it. However, there is no explicit statement indicating that the service actively informs users about the risks of publishing personal information online.
+
+- VERDICT: No
+- RISK: YELLOW","Netflix's Terms of Service and Privacy Policy do not explicitly state that they inform users about the risks of publishing personal information online. While they do emphasize user privacy and data protection, there is no clear mention of educating users on the risks associated with sharing personal information publicly.
+
+- VERDICT: Unclear
+- RISK: YELLOW",0.7357094287872314,0.7106913924217224,True
+netflix,Is it true that this service may use your personal information for marketing purposes?,This service may use your personal information for marketing purposes,bad,Yes,RED,13004,Yes,GREEN,Yes,YELLOW,"Yes, the service may use your personal information for marketing purposes, including sending marketing and informational messages, selecting advertisements, and optimizing marketing campaigns.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Netflix's Terms of Service and Privacy Policy indicate that they may use personal information for marketing purposes, including personalized recommendations and promotional communications. 
+
+- VERDICT: Yes
+- RISK: YELLOW",0.8425835967063904,0.634438157081604,True
+paypal,Is it true that this service does not force users into binding arbitration?,This service does not force users into binding arbitration,good,Yes,GREEN,14331,No,RED,No,YELLOW,"No, the document clearly states that users and PayPal agree to resolve any claims or disputes through arbitration, which is binding. Users must follow an opt-out procedure if they do not wish to be bound by this arbitration agreement.
+
+- VERDICT: No
+- RISK: RED","PayPal's Terms of Service typically include a binding arbitration clause, which means that users are generally required to resolve disputes through arbitration rather than in court. Therefore, it is not true that this service does not force users into binding arbitration.
+
+- VERDICT: No
+- RISK: RED",0.47247999906539917,0.6157213449478149,False
+paypal,Is it true that you waive your moral rights?,You waive your moral rights,blocker,Yes,RED,21259,Unclear,YELLOW,Unclear,YELLOW,"The provided excerpts do not mention anything about waiving moral rights. Therefore, it is unclear whether such a waiver exists in the Terms of Service or Privacy Policy.
+
+- VERDICT: Unclear
+- RISK: YELLOW","In PayPal's Terms of Service, users typically agree to certain terms regarding the content they create or share on the platform. While the specific language may vary, many online service agreements include clauses that address the waiver of moral rights, which are rights that protect the personal and reputational value of a creator's work. If PayPal's Terms of Service explicitly state that users waive their moral rights in relation to content submitted or shared, then it would be true that users waive these rights.
+
+However, without access to the most current version of PayPal's Terms of Service, I cannot confirm the exact wording or provisions regarding moral rights.
+
+- VERDICT: Unclear
+- RISK: YELLOW",0.742618978023529,0.528498649597168,True
+paypal,Is it true that your information is only shared with third parties when given specific consent?,Your information is only shared with third parties when given specific consent,good,Yes,GREEN,24977,No,RED,Unclear,YELLOW,"No, the excerpts indicate that information may be shared with third parties for various purposes without specific consent, particularly for fraud prevention, risk management, and to provide services. Consent is required only for the collection and processing of Sensitive Personal Information, and there are instances where information is shared without explicit consent for personalized shopping experiences.
+
+- VERDICT: No
+- RISK: RED","PayPal's Terms of Service and Privacy Policy generally state that user information may be shared with third parties under certain conditions, including when the user provides specific consent. However, there are also circumstances where information may be shared without explicit consent, such as for legal compliance or service provision. Therefore, while consent is a factor, it is not the only condition under which information may be shared.
+
+- VERDICT: Unclear
+- RISK: YELLOW",0.6353318691253662,0.6270487904548645,True
+snapchat,Is it true that you can request access and deletion of personal data?,You can request access and deletion of personal data,good,Yes,GREEN,11577,Yes,GREEN,Yes,GREEN,"Yes, you can access and update your information, as well as delete your account and some information within the Services.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Snapchat's Terms of Service and Privacy Policy indicate that users have the right to request access to their personal data and to request its deletion. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.6634378433227539,0.5926641225814819,True
+snapchat,Is it true that you waive your right to a class action?,You waive your right to a class action.,bad,Yes,RED,13811,Yes,GREEN,Yes,YELLOW,"Yes, you waive your right to a class action as all claims and disputes must be arbitrated or litigated on an individual basis and cannot be consolidated with those of any other customer or user, unless you opt out of the Arbitration Agreement within the specified time frame.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Snapchat's Terms of Service typically include a clause that requires users to waive their right to participate in class action lawsuits. This means that users agree to resolve disputes on an individual basis rather than as part of a group.
+
+- VERDICT: Yes
+- RISK: RED",0.6774694323539734,0.49088168144226074,True
+snapchat,Is it true that this service allows you to retrieve an archive of your data?,This service allows you to retrieve an archive of your data,good,Yes,GREEN,13814,Unclear,YELLOW,Yes,GREEN,"The provided excerpts do not explicitly state that the service allows users to retrieve an archive of their data. While it mentions that users should keep a separate copy of content saved to Memories and that the service may retain certain information, it does not confirm the ability to retrieve an archive of all data.
+
+- VERDICT: No
+- RISK: GREEN","Yes, Snapchat allows users to request and retrieve an archive of their data through their account settings. This feature enables users to access information such as their snaps, chats, and other account-related data.
+
+- VERDICT: Yes
+- RISK: GREEN",0.7762089371681213,0.5301172137260437,True
+snapchat,Is it true that the service has non-exclusive use of your content?,The service has non-exclusive use of your content,good,Yes,GREEN,15229,Yes,GREEN,Yes,GREEN,"Yes, the service has a non-exclusive use of your content as you grant Snap and its affiliates a worldwide, royalty-free, irrevocable, and perpetual right and license to use your Public Content. 
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, Snapchat's Terms of Service indicate that by using the service, you grant Snapchat a non-exclusive, worldwide, royalty-free license to use, display, and distribute your content. This means that while you retain ownership of your content, Snapchat has the right to use it as outlined in their policies.
+
+- VERDICT: Yes
+- RISK: GREEN",0.6636374592781067,0.47259482741355896,True
+snapchat,"Is it true that the service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users?","The service may use tracking pixels, web beacons, browser fingerprinting, and/or device fingerprinting on users.",bad,Yes,RED,11572,Yes,YELLOW,Yes,YELLOW,"The provided excerpts mention the use of ""pixels"" as a method to recognize user activity, but do not explicitly mention tracking pixels, web beacons, browser fingerprinting, or device fingerprinting. Therefore, it is unclear if these specific tracking methods are used based on the information provided.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, Snapchat's Terms of Service and Privacy Policy indicate that the service may use tracking technologies such as tracking pixels, web beacons, browser fingerprinting, and device fingerprinting to collect information about users and their interactions with the service.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.7691162824630737,0.6041439771652222,True
+spotify,Is it true that you have the right to leave this service at any time?,You have the right to leave this service at any time,good,Yes,GREEN,109953,Yes,GREEN,Yes,GREEN,"Yes, you have the right to terminate the Terms at any time if you no longer want to use the Spotify Service.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, according to Spotify's Terms of Service, users have the right to terminate their account and leave the service at any time. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.5235756039619446,0.5887318849563599,False
+spotify,Is it true that you maintain ownership of your content?,You maintain ownership of your content,good,Yes,GREEN,115119,Yes,GREEN,Yes,GREEN,"Yes, you retain ownership of your User Content when you post it to the Spotify Service. 
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, according to Spotify's Terms of Service, users maintain ownership of the content they upload or create. However, by using the service, users grant Spotify a license to use that content for the purposes of providing the service. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.6278647780418396,0.4860382080078125,True
+tiktok,Is it true that you waive your moral rights?,You waive your moral rights,blocker,Yes,RED,35068,Unclear,YELLOW,Yes,YELLOW,"The provided excerpts do not explicitly mention the waiver of moral rights. They discuss the ownership of content, the rights retained by the platform, and the ability to remove or restrict content, but there is no clear statement regarding the waiver of moral rights. 
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, TikTok's Terms of Service indicate that users may waive certain moral rights in relation to the content they create and share on the platform. This typically means that users may not have the right to object to modifications or uses of their content that could be seen as derogatory or harmful to their honor or reputation.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.7083941698074341,0.376465380191803,True
+tiktok,Is it true that this service gives your personal data to third parties involved in its operation?,This service gives your personal data to third parties involved in its operation,bad,Yes,RED,22074,Yes,YELLOW,Yes,YELLOW,"Yes, the service shares your personal data with third parties, such as service providers and business partners, for various business operations and purposes. 
+
+- VERDICT: Yes
+- RISK: YELLOW","Yes, TikTok's Terms of Service and Privacy Policy indicate that the platform may share personal data with third parties involved in its operation, including service providers and business partners. This sharing is typically for purposes such as improving services, advertising, and analytics.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.7897050380706787,0.5676445960998535,True
+tiktok,Is it true that your personal information is used for many different purposes?,Your personal information is used for many different purposes,bad,Yes,RED,22071,Yes,GREEN,Yes,YELLOW,"Yes, the document excerpts clearly state that personal information is used for various purposes, including operating services, improving technology, personalizing content, facilitating purchases, marketing, and ensuring safety and compliance.
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, TikTok's Terms of Service and Privacy Policy indicate that personal information may be used for various purposes, including but not limited to improving services, personalizing content, advertising, and analytics.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.6737440824508667,0.6053454875946045,True
+tiktok,"Is it true that you are tracked via web beacons, tracking pixels and device fingerprinting?","You are tracked via web beacons, tracking pixels and device fingerprinting",bad,Yes,RED,22066,Yes,YELLOW,Yes,YELLOW,"Yes, the document states that cookies and other similar technologies, including web beacons and tracking pixels, are used to measure and analyze how you use the Services. Additionally, technical information from your device, which may include device fingerprinting, is automatically collected. 
+
+- VERDICT: Yes
+- RISK: YELLOW","Yes, TikTok's Terms of Service and Privacy Policy indicate that the platform uses web beacons, tracking pixels, and device fingerprinting as part of its data collection practices to track user activity and enhance user experience.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.7225072979927063,0.6082789897918701,True
+tiktok,Is it true that your profile is combined across various products?,Your profile is combined across various products,bad,Yes,RED,22068,Unclear,YELLOW,Yes,YELLOW,"The provided excerpts do not explicitly state that your profile is combined across various products. However, they do mention that information may be shared with third-party platforms and partners to offer a seamless experience, which could imply some level of integration. Without a clear statement confirming that profiles are combined, the answer remains uncertain.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, TikTok's Terms of Service indicate that user profiles may be combined across various products and services offered by the company. This means that information from your TikTok profile could be integrated with data from other platforms or services owned by TikTok or its parent company, ByteDance.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.8104288578033447,0.42205095291137695,True
+tinder,Is it true that google analytics is used for statistics?,Google Analytics is used for statistics,bad,Yes,RED,20399,Unclear,YELLOW,Yes,GREEN,"The provided document excerpts do not mention Google Analytics specifically or indicate its use for statistics. Therefore, it is unclear whether Google Analytics is used for this purpose based on the information given.
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, Tinder's Terms of Service and Privacy Policy indicate that they use Google Analytics to collect and analyze data for statistical purposes. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.7095298767089844,0.49041426181793213,True
+twitter_x,Is it true that an onion site accessible over tor is provided?,An onion site accessible over Tor is provided,good,Yes,GREEN,29044,No,GREEN,No,GREEN,"The provided document excerpts do not mention anything about an onion site or accessibility over Tor. Therefore, it is unclear whether such a service is provided.
+
+- VERDICT: No
+- RISK: GREEN","Based on Twitter's Terms of Service and Privacy Policy, there is no indication that Twitter provides an onion site accessible over Tor. Typically, social media platforms do not offer such services due to security and operational concerns. 
+
+- VERDICT: No
+- RISK: GREEN",0.8178302049636841,0.6882710456848145,True
+youtube,"Is it true that you can request access, correction and/or deletion of your data?","You can request access, correction and/or deletion of your data",good,Yes,GREEN,131954,Yes,GREEN,Yes,GREEN,"Yes, the document states that U.S. state privacy laws provide the right to access your information, correct it, and request its deletion. 
+
+- VERDICT: Yes
+- RISK: GREEN","Yes, under YouTube's Privacy Policy, users have the right to request access to their personal data, as well as the ability to request corrections or deletions of that data. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.5772708654403687,0.4531230330467224,True
+youtube,Is it true that you have the right to leave this service at any time?,You have the right to leave this service at any time,good,Yes,GREEN,106601,Unclear,YELLOW,Yes,GREEN,"The provided excerpts do not explicitly state that you have the right to leave the service at any time. However, they do mention that if you do not agree to new terms, you should remove any content and stop using the service, which implies that you can choose to stop using the service. 
+
+- VERDICT: Unclear
+- RISK: YELLOW","Yes, according to YouTube's Terms of Service, users have the right to terminate their account and leave the service at any time. 
+
+- VERDICT: Yes
+- RISK: GREEN",0.8255664706230164,0.6329461336135864,True
+youtube,Is it true that some personal data may be kept for business interests or legal obligations?,Some personal data may be kept for business interests or legal obligations,bad,Yes,RED,276828,Yes,YELLOW,Yes,YELLOW,"Yes, the document excerpts indicate that personal data may be processed and shared for business purposes, such as improving services and ensuring compliance with legal obligations. This includes responding to legal requests and protecting against fraud and security threats.
+
+- VERDICT: Yes
+- RISK: YELLOW","Yes, YouTube's Terms of Service and Privacy Policy indicate that personal data may be retained for business interests, such as improving services and for legal obligations, such as compliance with laws and regulations.
+
+- VERDICT: Yes
+- RISK: YELLOW",0.7178848385810852,0.6543216705322266,True
