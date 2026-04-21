@@ -1,0 +1,52 @@
+company,question,answer
+discord,How many days do you have to opt out of Discord's arbitration agreement?,30 days
+discord,Does Discord sell your personal information to third parties?,No
+discord,What email do you use to opt out of Discord's arbitration clause?,arbitration-opt-out@discord.com
+discord,Does Discord store the contents of video or voice calls?,No
+discord,What city is Discord Inc. headquartered in?,San Francisco
+twitter_x,What is the maximum amount X will pay in damages in a lawsuit?,100 USD or the amount you paid in the past six months whichever is greater
+twitter_x,What US state's laws govern X's Terms of Service?,Texas
+twitter_x,How many posts can you access in 24 hours before X charges liquidated damages?,1000000
+twitter_x,How long do you have to initiate a federal claim against X?,1 year
+twitter_x,How long do you have to initiate a state law claim against X?,2 years
+tinder,What is the minimum age to use Tinder?,18
+tinder,Does Tinder automatically renew subscriptions?,Yes
+tinder,If you cancel your Tinder subscription do you lose access immediately?,No you retain access until the end of the subscription period
+tinder,Who handles refunds for Apple ID subscribers on Tinder?,Apple
+tinder,Does Tinder use your content to train AI models?,Yes
+tinder,What city is Tinder LLC based in?,Dallas TX
+airbnb,How much notice must Airbnb give before terminating your account for a general reason?,30 days
+airbnb,How long of inactivity before Airbnb can terminate your account without notice?,More than 2 years
+airbnb,If a Host terminates their account what happens to confirmed bookings?,They are automatically canceled and guests receive a full refund
+airbnb,How many days notice does Airbnb give before Terms of Service changes take effect?,At least 30 days
+airbnb,When was the Airbnb Terms of Service last updated?,February 5 2026
+spotify,What is the minimum age to use Spotify without parental consent?,18
+spotify,What is Spotify's maximum liability cap in a lawsuit?,The greater of amounts paid in the 12 months prior to the claim or 30 USD
+spotify,How long do you have to file a claim against Spotify?,1 year
+spotify,What city and state is Spotify USA Inc. located in?,"New York, NY"
+spotify,Does Spotify sell your personal data to third parties?,No
+spotify,Does Spotify use your data to develop and train AI models?,Yes
+netflix,What is the minimum age to create a Netflix account?,18
+netflix,What state's law governs Netflix's Terms of Use?,Delaware
+netflix,How many days do you have to opt out of Netflix's arbitration agreement?,30 days
+netflix,What email do you use to opt out of Netflix's arbitration agreement?,Opt-Out@netflix.com
+netflix,When were Netflix's Terms of Use last updated?,April 10 2026
+netflix,How long does Netflix give for material changes to Terms of Use to take effect?,One month after notice
+snapchat,What is the minimum age to use Snapchat?,13
+snapchat,What is Snapchat's maximum aggregate liability cap?,The greater of 100 USD or the amount paid in the 12 months preceding the claim
+snapchat,Does Snapchat retain the right to review and delete your content at any time?,Yes
+snapchat,How long do you have to submit a complaint about a content moderation decision?,Six months
+snapchat,Can Snapchat reclaim your username at any time?,Yes
+snapchat,If you change your phone number how long do you have to update your Snapchat account?,72 hours
+paypal,What is the minimum age to open a PayPal account?,18
+paypal,When was the PayPal User Agreement last updated?,January 26 2026
+paypal,How many days do you have to report an unauthorized transaction to PayPal?,60 days
+paypal,How many days notice does PayPal give personal account holders before changes that reduce rights?,At least 21 days
+paypal,How many days notice does PayPal give business account holders before changes that reduce rights?,At least 5 days
+paypal,What phone number can you call to report a lost or stolen PayPal login?,(888) 221-1161
+linkedin,What is the minimum age to use LinkedIn?,16
+linkedin,What is LinkedIn's maximum liability cap in a lawsuit?,The greater of total fees paid or 1000 USD
+linkedin,What US state's laws govern LinkedIn's Terms of Service for non-EU users?,California
+linkedin,When did LinkedIn's current User Agreement become effective?,November 3 2025
+linkedin,Can you have more than one LinkedIn account?,No you may only have one LinkedIn account
+linkedin,Are LinkedIn Services available to anyone under the age of 16?,No
