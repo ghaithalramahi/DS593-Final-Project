@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#111827" text-anchor="start">Chunking Strategy Within Each Retrieval Method</text>
+<text x="40" y="72" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" fill="#4b5563" text-anchor="start">Judge accuracy and fuzzy accuracy for large, small, and sentence chunks</text>
+<line x1="90" y1="530.0" x2="1030" y2="530.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="55" y="534.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">0%</text>
+<line x1="90" y1="444.0" x2="1030" y2="444.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="55" y="448.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">20%</text>
+<line x1="90" y1="358.0" x2="1030" y2="358.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="55" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">40%</text>
+<line x1="90" y1="272.0" x2="1030" y2="272.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="55" y="276.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">60%</text>
+<line x1="90" y1="186.0" x2="1030" y2="186.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="55" y="190.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">80%</text>
+<line x1="90" y1="100.0" x2="1030" y2="100.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="55" y="104.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">100%</text>
+<circle cx="760" cy="39" r="6" fill="#0f766e"/>
+<text x="774" y="44" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#111827" text-anchor="start">Large</text>
+<circle cx="855" cy="39" r="6" fill="#b45309"/>
+<text x="869" y="44" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#111827" text-anchor="start">Small</text>
+<circle cx="950" cy="39" r="6" fill="#4338ca"/>
+<text x="964" y="44" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#111827" text-anchor="start">Sentence</text>
+<text x="300" y="590" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">Semantic Retrieval</text>
+<rect x="171" y="158.91000000000003" width="34" height="371.09" rx="3" fill="#0f766e" stroke="none"/>
+<text x="188" y="150.91000000000003" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">86.3%</text>
+<rect x="213" y="201.05" width="34" height="328.95" rx="3" fill="#b45309" stroke="none"/>
+<text x="230" y="193.05" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">76.5%</text>
+<rect x="255" y="142.14" width="34" height="387.86" rx="3" fill="#4338ca" stroke="none"/>
+<text x="272" y="134.14" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">90.2%</text>
+<text x="230" y="568" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">Judge</text>
+<rect x="311" y="201.05" width="34" height="328.95" rx="3" fill="#0f766e" stroke="none"/>
+<text x="328" y="193.05" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">76.5%</text>
+<rect x="353" y="226.42000000000002" width="34" height="303.58" rx="3" fill="#b45309" stroke="none"/>
+<text x="370" y="218.42000000000002" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">70.6%</text>
+<rect x="395" y="184.27999999999997" width="34" height="345.72" rx="3" fill="#4338ca" stroke="none"/>
+<text x="412" y="176.27999999999997" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">80.4%</text>
+<text x="370" y="568" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">Fuzzy</text>
+<text x="760" y="590" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">BM25 Retrieval</text>
+<rect x="631" y="150.74" width="34" height="379.26" rx="3" fill="#0f766e" stroke="none"/>
+<text x="648" y="142.74" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">88.2%</text>
+<rect x="673" y="209.64999999999998" width="34" height="320.35" rx="3" fill="#b45309" stroke="none"/>
+<text x="690" y="201.64999999999998" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">74.5%</text>
+<rect x="715" y="158.91000000000003" width="34" height="371.09" rx="3" fill="#4338ca" stroke="none"/>
+<text x="732" y="150.91000000000003" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">86.3%</text>
+<text x="690" y="568" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">Judge</text>
+<rect x="771" y="192.88" width="34" height="337.12" rx="3" fill="#0f766e" stroke="none"/>
+<text x="788" y="184.88" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">78.4%</text>
+<rect x="813" y="226.42000000000002" width="34" height="303.58" rx="3" fill="#b45309" stroke="none"/>
+<text x="830" y="218.42000000000002" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">70.6%</text>
+<rect x="855" y="218.25" width="34" height="311.75" rx="3" fill="#4338ca" stroke="none"/>
+<text x="872" y="210.25" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" fill="#111827" text-anchor="middle">72.5%</text>
+<text x="830" y="568" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">Fuzzy</text>
+</svg>
